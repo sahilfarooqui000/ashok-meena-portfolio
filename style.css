@@ -524,8 +524,8 @@ height: 42px;
     color: #0ef;
 }
 .skills-container {
-    margin-left:24%;
-    margin-right: 3%;
+    margin-left:9%;
+    margin-right: 9%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
@@ -585,7 +585,7 @@ height: 42px;
 }
 
 .project {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     margin-bottom: 200px;
 
     display: flex;
@@ -659,6 +659,12 @@ h3 {
 
 .project-image-box {
     position: relative;
+}
+
+.project-image-box-2 {
+    margin-right: 130px;
+    width: 950px;
+    height: 450px;    
 }
 
 .project-img-link {
@@ -1166,9 +1172,11 @@ h3 {
         font-size: 19px;
     }
     .skills-container {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 9%;
+        margin-right: 9%;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        /* justify-content: center;
+        align-items: center; */
     }
     
     .skill-box img{
